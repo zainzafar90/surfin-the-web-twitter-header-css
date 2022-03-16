@@ -1,0 +1,24 @@
+{
+  "name": "surfin-the-web-twitter-header-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./css/input.css -o ./dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainzafar90/surfin-the-web-twitter-header-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zainzafar90/surfin-the-web-twitter-header-css/issues"
+  },
+  "homepage": "https://github.com/zainzafar90/surfin-the-web-twitter-header-css#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="min-h-screen bg-blue-400">
+      <!-- Background -->
+      <div class="relative w-[900px] h-[600px] mx-auto">
+        <!-- Monitor -->
+        <div
+          class="absolute top-[104px] left-[136px] w-[436px] h-72 rounded-2xl bg-blue-700 overflow-hidden"
+        >
+          <!-- Sidebar -->
+          <div class="absolute top-0 left-0 h-full w-6 bg-blue-900"></div>
+
+          <div
+            class="absolute top-8 right-8 h-24 w-36 bg-blue-800 rounded-md"
+          ></div>
+          <div
+            class="absolute top-40 right-8 h-16 w-16 bg-blue-800 rounded-md"
+          ></div>
+
+          <!-- App Window -->
+          <div class="absolute top-16 left-16 h-40 w-64 bg-white rounded-md">
+            <div class="relative">
+              <!-- Mac Buttons -->
+              <div
+                class="absolute top-2 left-3 w-2 h-2 bg-red-400 rounded-full"
+              ></div>
+              <div
+                class="absolute top-2 left-6 w-2 h-2 bg-amber-400 rounded-full"
+              ></div>
+              <div
+                class="absolute top-2 left-9 w-2 h-2 bg-green-400 rounded-full"
+              ></div>
+
+              <!-- Navbar -->
+              <div
+                class="absolute top-6 right-4 w-4/6 h-3 bg-gray-100 rounded-md"
+              ></div>
+
+              <!-- Tiles -->
+              <div class="absolute top-14 left-0 w-full px-3">
+                <div class="grid grid-cols-3 gap-3">
+                  <div class="w-full h-10 bg-gray-100 rounded-sm"></div>
+                  <!-- Color Tile -->
+                  <div
+                    class="w-full h-10 bg-blue-300 rounded-sm overflow-hidden"
+                  >
+                    <div class="relative">
+                      <div
+                        class="absolute -top-16 -left-10 w-24 h-[86px] bg-blue-600 rounded-full"
+                      ></div>
+                      <div
+                        class="absolute -top-16 -left-4 w-20 h-20 bg-blue-600 rounded-full"
+                      ></div>
+                      <div
+                        class="absolute top-4 -right-12 w-24 h-24 bg-blue-800 rounded-full"
+                      ></div>
+                    </div>
+
+                    <div
+                      class="absolute top-11 left-24 w-10 h-0.5 bg-sky-400"
+                    ></div>
+                  </div>
+
+                  <div class="w-full h-10 bg-gray-100 rounded-sm"></div>
+                  <div
+                    class="w-full h-10 bg-gray-100 rounded-sm col-span-3"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Cursor -->
+              <div class="absolute top-24 right-[72px] w-5 h-5 rotate-12">
+                <div class="relative">
+                  <div
+                    class="border-l-[10px] border-r-[10px] border-t-[24px] border-l-transparent border-r-transparent border-b-transparent border-blue-900 rotate-[135deg]"
+                  ></div>
+                  <div
+                    class="absolute top-[17px] left-[4.5px] border-l-[10px] border-r-[10px] border-t-[10px] border-l-transparent border-r-transparent border-b-transparent border-blue-900 rotate-[248deg]"
+                  ></div>
+                  <div
+                    class="absolute top-[11px] left-[10px] border-l-[10px] border-r-[10px] border-t-[10px] border-l-transparent border-r-transparent border-b-transparent border-blue-900 rotate-[21deg]"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Monitor Button Panel -->
+          <div class="absolute bottom-0 left-0 h-10 w-full bg-white">
+            <div class="relative">
+              <div
+                class="absolute top-4 right-5 w-3 h-3 bg-blue-800 rounded-full"
+              ></div>
+              <div
+                class="absolute top-4 right-10 w-3 h-3 bg-blue-600 rounded-full"
+              ></div>
+              <div
+                class="absolute top-2 right-1/2 translate-x-3 w-6 h-6 border-sky-400 border-2 rounded-full"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Monitor Sticky Note -->
+        <div class="absolute top-[380px] left-[220px]">
+          <div class="relative">
+            <div
+              class="absolute -top-2 left-4 w-14 h-14 bg-teal-400 -rotate-[10deg]"
+            >
+              <div class="absolute top-3 left-3 h-0.5 w-8 bg-teal-500"></div>
+              <div class="absolute top-5 left-3 h-0.5 w-8 bg-teal-500"></div>
+              <div
+                class="absolute bottom-0 right-0 h-0 w-0 bg-teal-500 border-[10px] border-l-transparent border-t-transparent border-r-blue-400 border-b-blue-400"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Monitor Stand -->
+        <div class="absolute top-[400px] left-[300px]">
+          <div class="relative">
+            <div
+              class="absolute -top-2 left-4 w-20 h-10 bg-blue-800 overflow-hidden"
+            >
+              <div
+                class="absolute -top-2 left-4 border-[32px] border-l-transparent border-t-transparent border-blue-700 rotate-12"
+              ></div>
+            </div>
+            <div
+              class="absolute top-7 left-16 w-16 h-2 rounded-sm bg-blue-900"
+            ></div>
+            <div
+              class="absolute top-8 left-4 w-40 h-4 rounded-tr-lg rounded-bl-lg bg-blue-700"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Plant Pot -->
+        <div class="absolute top-[370px] left-[60px]">
+          <div class="relative -top-24 w-36 h-24 o8verflow-hidden">
+            <!-- First Leaf -->
+            <div
+              class="absolute top-6 left-6 w-10 h-20 bg-teal-500 rounded-t-3xl -rotate-12 overflow-hidden"
+            >
+              <div class="relative">
+                <div
+                  class="absolute top-0 left-1/2 -translate-x-0.5 w-0.5 h-24 bg-teal-600 rounded-t-2xl"
+                ></div>
+                <div
+                  class="absolute top-0 -right-1 w-3 h-20 bg-teal-600 rotate-12"
+                ></div>
+              </div>
+            </div>
+
+            <!-- Second Leaf -->
+            <div
+              class="absolute top-0 left-16 w-10 h-24 bg-teal-400 rounded-t-3xl"
+            >
+              <div class="relative">
+                <div
+                  class="absolute top-0 left-1/2 -translate-x-0.5 w-0.5 h-24 bg-teal-600 rounded-t-2xl"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute top-0 left-4 w-24 h-16 bg-blue-700"></div>
+          <div
+            class="absolute top-16 left-4 w-24 h-8 rounded-b-full bg-blue-900"
+          ></div>
+          <div
+            class="absolute top-4 left-2 w-10 h-1 rounded-sm bg-blue-900"
+          ></div>
+        </div>
+
+        <!-- Keyboard -->
+        <div class="absolute top-[480px] left-[220px]">
+          <div class="absolute top-0 left-4 w-64 h-7 bg-teal-400"></div>
+          <div
+            class="absolute top-7 left-11 w-64 h-8 bg-teal-400 skew-x-[61deg]"
+          ></div>
+          <div
+            class="absolute top-0 left-11 w-64 h-12 bg-white skew-x-[50deg]"
+          ></div>
+          <div class="absolute top-12 left-[72px] w-64 h-3 bg-teal-400"></div>
+        </div>
+
+        <!-- Mouse -->
+        <div class="absolute top-[490px] left-[540px]">
+          <div
+            class="absolute top-0 left-11 w-32 h-10 bg-white rounded-t-full overflow-hidden"
+          >
+            <div
+              class="absolute top-0 -left-4 w-20 h-20 bg-teal-400 rounded-t-full"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Bee Note -->
+        <div
+          class="absolute top-36 right-24 w-28 h-[140px] bg-teal-400 shadow-lg"
+        >
+          <div class="relative">
+            <!-- Bee Note Clip -->
+            <div
+              class="absolute left-11 -top-3 w-7 h-4 bg-blue-900 -rotate-[18deg]"
+            ></div>
+
+            <!-- Bee -->
+            <div class="relative left-0 top-8 w-full bg-white -rotate-[40deg]">
+              <!-- EYES -->
+              <!-- Left Eye -->
+              <div
+                class="absolute left-7 top-0 w-2.5 h-2.5 border-2 border-white rounded-full"
+              ></div>
+              <!-- Right Eye -->
+              <div
+                class="absolute left-10 top-0.5 w-2.5 h-2.5 border-2 border-white rounded-full"
+              ></div>
+
+              <!-- WINGS -->
+              <!-- Left Wing -->
+              <div
+                class="absolute -left-1 top-2 w-6 h-6 border-2 border-white rounded-b-[50%] rounded-r-[50%] rotate-[110deg]"
+              ></div>
+              <!-- Right Wing -->
+              <div
+                class="absolute left-[51px] top-[15px] w-6 h-6 border-2 border-white rounded-b-[50%] rounded-r-[50%] -rotate-[5deg]"
+              ></div>
+
+              <!-- BODY -->
+              <div
+                class="absolute left-5 top-3 w-7 h-10 border-2 border-transparent rounded-r-[50%] rounded-l-[50%] rounded-t-[40%] rounded-b-[55%] rotate-[10deg] overflow-hidden"
+              >
+                <div class="w-full h-1 bg-white"></div>
+                <div class="mt-1.5 w-full h-1 bg-white"></div>
+                <div class="mt-1.5 w-full h-1 bg-white"></div>
+                <div class="mt-1.5 w-full h-1 bg-white"></div>
+                <div class="w-full h-1 bg-white"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sticky Notes -->
+        <div class="absolute top-72 right-12 w-44 h-32">
+          <div class="relative">
+            <!-- Sticky Note One -->
+            <div class="absolute top-14 left-1 w-14 h-14 bg-blue-600"></div>
+
+            <!-- Sticky Note Two -->
+            <div class="absolute top-8 right-2 w-14 h-14 bg-blue-600"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
